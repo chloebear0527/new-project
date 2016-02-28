@@ -1,9 +1,9 @@
 html{
 	font-family:Helvetica,Arial;
-	font-size:15px;
+	font-size:20px;
 }
 body{
-background-color:#049E9C;	
+background-color:#010745;	
 color:rgba(255,255,255,1);
 
 }
@@ -22,10 +22,10 @@ h2{
 nav ul li {
 	display:inline-block;
 	margin:20px 50px 20px 50px;
-	color: black;
-	background-color:white;
-	padding:5px;
-	border:1px dashed black;
+	color:white;
+	background-color:black;
+	padding:10px;
+	border:1px solid #010745;
 	border-radius:5px;
 	transition:background-color .5s, color .5s;
 }
@@ -37,7 +37,7 @@ nav ul{
 }
 
 nav{
-	background-color: #C7BDB3
+	background-color: #000000
 }
 
 .banner{
@@ -45,7 +45,7 @@ nav{
 }
 
 nav ul li:hover{
-	background-color:#1099FF;
+	background-color:#742682;
 	color:white;
 }
 
@@ -60,7 +60,7 @@ img{
 .picture{
 	display:inline-block;
 	text-align: center;
-	color:#003600;
+	color:#7ADEFF;
 }
 .lol{
 	font-weight: 700;
