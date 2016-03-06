@@ -57,7 +57,7 @@ var book3 = {
 }
 
 var bookCollection = [book2,book3];
-var bookStore = [book,bookCollection];
+var bookStore = [book,book2,book3];
 console.log(bookStore); 
 
 book.title = "Harry Potter"
@@ -76,6 +76,99 @@ console.log(book);
 console.log("Title:"+book.title);
 console.log("Price:"+book.price);
 console.log("Description:"+book.description);
+
+
+// bookStore.push("My Book");
+// console.log(bookStore);
+
+// bookStore = bookStore.slice(0,3);
+// console.log(bookStore);
+
+// bookStore = bookStore.slice(0,2);
+// console.log(bookStore);
+
+console.log(a);
+console.log(b);
+console.log(a>=b);
+
+a = "1"
+console.log(a);
+console.log(b);
+console.log(a===b);
+
+var animal = "bird";
+
+if (animal === "cat"){
+	console.log("meow");
+} else if (animal === "pig"){
+	console.log("xxxxx");
+} else if (animal === "dog"){
+	console.log("wuff");
+}else{
+	console.log("unknown");
+}
+
+switch (animal){
+	case "cat":
+	console.log("meow");
+	break;
+	case "dog":
+	console.log("wuff");
+	break;
+	case "pig":
+	console.log("xxxxx");
+	break;
+	default:
+	console.log("unknown");
+}
+
+console.log(bookStore.length);
+
+// for (var i = 0; i < bookStore.length; i++){
+// 	bookStore[i].price++;
+// console.log(bookStore[i]);
+
+var a = 10;
+while(a>=0) {
+	console.log(a);
+	a--;
+}
+
+function addPrice(store,incre) {
+	console.log(store);
+for (var i = 0; i < store.length; i++) {
+	store[i].price +=incre;
+console.log(store[i]);
+}
+return "Book Pice added by" + incre;
+}
+
+console.log(addPrice(bookStore,10));
+console.log(addPrice(bookStore,50));
+
+function addPrice(store,multi){
+	for (var i = 0; i < store.length; i++) {
+	store[i].price *=multi;
+console.log(store[i]);
+}
+return "multi price";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
